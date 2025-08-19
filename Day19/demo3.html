@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+    <body>
+        <h1>Hello</h1>
+        <button id="but1">
+            Click me
+        </button>
+        <h1 id="myHeading">Hello, JavaScript!</h1>
+        <p id="para1"></p>
+
+        <script>
+            alert("Hi");
+            document.getElementById("but1").addEventListener("click",function(){document.getElementById("para1").innerHTML="Button clicked"});
+            document.getElementById("myHeading").innerHTML = "I love JavaScript!";
+        </script>
+    </body>
+</html>
